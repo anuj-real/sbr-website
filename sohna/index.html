@@ -3,200 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Residential Plots Sohna-KMP | SBR Associates</title>
+    <title>Sohna Residential Plots | SBR Associates</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        
-        :root {
-            --navy: #0f172a;
-            --gold: #b45309; /* Deep Amber/Gold */
-            --gold-light: #f59e0b;
-        }
-
-        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .bg-navy { background-color: var(--navy); }
-        .text-gold { color: var(--gold-light); }
-        .border-gold { border-color: var(--gold); }
-        .btn-gold { 
-            background-color: var(--gold); 
-            transition: all 0.3s ease;
-        }
-        .btn-gold:hover { background-color: #92400e; }
-        
-        /* Glassmorphism for the sidebar */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000'); background-size: cover; background-position: center; }
+        .accent-gold { color: #B8860B; }
+        .bg-gold { background-color: #B8860B; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
+<body class="bg-slate-50 font-sans text-slate-900">
 
-    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold tracking-tighter text-slate-900">
-                SBR<span class="text-amber-700">ASSOCIATES</span>
-            </div>
-            <a href="https://wa.me/YOUR_NUMBER" class="hidden md:block bg-green-600 text-white px-5 py-2 rounded-full text-sm font-semibold">
-                <i class="fab fa-whatsapp mr-2"></i>Chat with Expert
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="/" class="text-xl font-bold tracking-tight">SBR <span class="accent-gold">ASSOCIATES</span></a>
+            <a href="https://wa.me/91XXXXXXXXXX?text=I'm%20interested%20in%20the%20Sohna%20Residential%20Plots" class="bg-green-600 text-white px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2 hover:bg-green-700 transition">
+                <i class="fab fa-whatsapp"></i> Inquiry
             </a>
         </div>
     </nav>
 
-    <section class="relative pt-32 pb-20 bg-navy overflow-hidden">
-        <div class="absolute inset-0 opacity-20">
-            <svg width="100%" height="100%"><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5"/></pattern><rect width="100%" height="100%" fill="url(#grid)" /></svg>
-        </div>
-        <div class="max-w-7xl mx-auto px-6 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <span class="inline-block px-4 py-1 border border-gold text-gold text-xs font-bold uppercase tracking-widest mb-6">New Launch: KMP Corridor</span>
-                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                        Premium Freehold Plots <br><span class="text-gold italic font-light">At KMP-Sohna</span>
-                    </h1>
-                    <p class="text-slate-400 text-lg mb-8 max-w-lg">
-                        Strategically located at the junction of KMP and Sohna-Ballabhgarh Road. Direct connectivity to the Delhi-Mumbai Expressway.
-                    </p>
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#pricing" class="btn-gold text-white px-8 py-4 rounded-sm font-bold uppercase text-xs tracking-widest">View Price List</a>
-                        <div class="flex items-center text-white">
-                            <span class="text-2xl font-bold mr-2">₹20,000</span>
-                            <span class="text-slate-400 text-sm">/ Per Sq. Yd.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden lg:block bg-slate-800 rounded-lg aspect-video relative overflow-hidden shadow-2xl border border-slate-700">
-                    <div class="absolute inset-0 flex items-center justify-center text-slate-500">
-                        <i class="fa-solid fa-map-location-dot text-6xl opacity-20"></i>
-                    </div>
-                </div>
+    <header class="hero-gradient h-[60vh] flex flex-col items-center justify-center text-center px-6 text-white">
+        <span class="bg-gold text-white px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase mb-4">Now Booking</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Residential Plots in Sohna</h1>
+        <p class="text-lg md:text-xl text-slate-200 max-w-2xl">Premium freehold land near KMP Expressway. Build your dream home in the heart of upcoming Haryana.</p>
+    </header>
+
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <i class="fas fa-map-marker-alt text-3xl accent-gold mb-3"></i>
+                <p class="text-xs text-slate-500 uppercase font-bold">Location</p>
+                <p class="font-bold">Near KMP Exp.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <i class="fas fa-expand-arrows-alt text-3xl accent-gold mb-3"></i>
+                <p class="text-xs text-slate-500 uppercase font-bold">Plot Size</p>
+                <p class="font-bold">Starts 50 Gaj</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <i class="fas fa-indian-rupee-sign text-3xl accent-gold mb-3"></i>
+                <p class="text-xs text-slate-500 uppercase font-bold">Price</p>
+                <p class="font-bold">₹20,000/Gaj</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <i class="fas fa-file-contract text-3xl accent-gold mb-3"></i>
+                <p class="text-xs text-slate-500 uppercase font-bold">Legal</p>
+                <p class="font-bold">Registry & Mutation</p>
             </div>
         </div>
     </section>
 
-    <section class="py-20">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="grid lg:grid-cols-3 gap-12">
-                
-                <div class="lg:col-span-2 space-y-16">
-                    
-                    <div id="pricing">
-                        <h2 class="text-3xl font-bold mb-8 border-l-4 border-gold pl-4">Plot Configurations</h2>
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <div class="bg-white p-8 border border-slate-200 shadow-sm hover:shadow-md transition">
-                                <h3 class="text-xl font-bold text-navy mb-2">Starter Plot</h3>
-                                <div class="text-3xl font-bold text-slate-900 mb-1">50 Sq. Yards</div>
-                                <div class="text-gold font-semibold mb-6">₹10,00,000 onwards</div>
-                                <ul class="space-y-3 text-sm text-slate-600 mb-8">
-                                    <li><i class="fa-solid fa-check text-green-600 mr-2"></i> Immediate Registry</li>
-                                    <li><i class="fa-solid fa-check text-green-600 mr-2"></i> Clear Title & Mutation</li>
-                                    <li><i class="fa-solid fa-check text-green-600 mr-2"></i> 20ft Internal Road Access</li>
-                                </ul>
-                                <button class="w-full border border-navy py-3 text-xs font-bold uppercase tracking-widest hover:bg-navy hover:text-white transition">Check Availability</button>
-                            </div>
-
-                            <div class="bg-white p-8 border border-slate-200 shadow-sm hover:shadow-md transition">
-                                <h3 class="text-xl font-bold text-navy mb-2">Executive Plot</h3>
-                                <div class="text-3xl font-bold text-slate-900 mb-1">100 Sq. Yards</div>
-                                <div class="text-gold font-semibold mb-6">₹20,00,000 onwards</div>
-                                <ul class="space-y-3 text-sm text-slate-600 mb-8">
-                                    <li><i class="fa-solid fa-check text-green-600 mr-2"></i> Corner/Park Facing Available</li>
-                                    <li><i class="fa-solid fa-check text-green-600 mr-2"></i> 30ft Main Road Access</li>
-                                    <li><i class="fa-solid fa-check text-green-600 mr-2"></i> High ROI Potential</li>
-                                </ul>
-                                <button class="w-full border border-navy py-3 text-xs font-bold uppercase tracking-widest hover:bg-navy hover:text-white transition">Check Availability</button>
-                            </div>
-                        </div>
+    <section class="py-12 px-6 bg-slate-900 text-white rounded-t-[3rem]">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Why Invest in Indri, Sohna?</h2>
+            <div class="space-y-6">
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center shrink-0">
+                        <i class="fas fa-check text-gold"></i>
                     </div>
-
                     <div>
-                        <h2 class="text-3xl font-bold mb-8 border-l-4 border-gold pl-4">Connectivity Map</h2>
-                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                            <div class="bg-slate-100 p-4 rounded text-center">
-                                <div class="text-navy font-bold text-xl">02 Min</div>
-                                <div class="text-slate-500 text-xs uppercase">KMP Expressway</div>
-                            </div>
-                            <div class="bg-slate-100 p-4 rounded text-center">
-                                <div class="text-navy font-bold text-xl">05 Min</div>
-                                <div class="text-slate-500 text-xs uppercase">Mumbai Exp.</div>
-                            </div>
-                            <div class="bg-slate-100 p-4 rounded text-center">
-                                <div class="text-navy font-bold text-xl">10 Min</div>
-                                <div class="text-slate-500 text-xs uppercase">Sohna City</div>
-                            </div>
-                            <div class="bg-slate-100 p-4 rounded text-center">
-                                <div class="text-navy font-bold text-xl">25 Min</div>
-                                <div class="text-slate-500 text-xs uppercase">Rajiv Chowk</div>
-                            </div>
-                        </div>
+                        <h4 class="font-bold text-lg text-white">Strategic Connectivity</h4>
+                        <p class="text-slate-400">Located in Tehsil - Indri, offering direct access to the KMP Expressway and the upcoming DMIC corridor.</p>
                     </div>
                 </div>
-
-                <div class="lg:col-span-1">
-                    <div class="bg-navy text-white p-8 rounded-sm sticky top-28">
-                        <div class="text-gold font-bold text-xs uppercase tracking-widest mb-4">SBR Expert Verdict</div>
-                        <div class="flex items-baseline mb-6">
-                            <span class="text-5xl font-bold mr-2">9.4</span>
-                            <span class="text-slate-400">/ 10 Score</span>
-                        </div>
-                        <p class="text-slate-300 text-sm leading-relaxed mb-8 italic">
-                            "A rare opportunity to own freehold land in a high-infrastructure zone. With the KMP-Sohna interchange becoming a residential hub, we project 35% annual appreciation here."
-                        </p>
-                        
-                        <div class="space-y-6 mb-10">
-                            <div>
-                                <div class="flex justify-between text-xs mb-2 uppercase tracking-tighter">
-                                    <span>Appreciation Potential</span>
-                                    <span class="text-gold">95%</span>
-                                </div>
-                                <div class="w-full bg-slate-800 h-1">
-                                    <div class="bg-gold h-1" style="width: 95%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="flex justify-between text-xs mb-2 uppercase tracking-tighter">
-                                    <span>Connectivity Factor</span>
-                                    <span class="text-gold">90%</span>
-                                </div>
-                                <div class="w-full bg-slate-800 h-1">
-                                    <div class="bg-gold h-1" style="width: 90%"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="bg-white/10 p-6 rounded-sm mb-8 border border-white/5">
-                            <h4 class="text-sm font-bold uppercase mb-4 text-gold">Project Highlights</h4>
-                            <ul class="space-y-3 text-xs text-slate-300">
-                                <li><i class="fa-solid fa-circle-check text-gold mr-2"></i> Gated Colony Boundaries</li>
-                                <li><i class="fa-solid fa-circle-check text-gold mr-2"></i> Demarcated Plots</li>
-                                <li><i class="fa-solid fa-circle-check text-gold mr-2"></i> Leveled Land</li>
-                                <li><i class="fa-solid fa-circle-check text-gold mr-2"></i> Immediate Possession</li>
-                            </ul>
-                        </div>
-
-                        <button class="w-full btn-gold py-4 font-bold uppercase text-xs tracking-widest shadow-xl">Download Brochure</button>
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center shrink-0">
+                        <i class="fas fa-check text-gold"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg text-white">Secure Ownership</h4>
+                        <p class="text-slate-400">100% Freehold properties. We handle all registry and mutation processes to ensure a hassle-free purchase.</p>
                     </div>
                 </div>
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center shrink-0">
+                        <i class="fas fa-check text-gold"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg text-white">High ROI Potential</h4>
+                        <p class="text-slate-400">With the rapid industrialization of Sohna, property values are projected to grow significantly in the next 24 months.</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="mt-16 bg-white text-slate-900 p-8 rounded-3xl text-center">
+                <h3 class="text-2xl font-bold mb-2">Ready to see the site?</h3>
+                <p class="text-slate-600 mb-6">Schedule a free site visit with SBR Associates today.</p>
+                <a href="https://wa.me/91XXXXXXXXXX?text=I'd%20like%20to%20book%20a%20site%20visit%20for%20Sohna" class="inline-block bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition shadow-lg">
+                    Book Site Visit Now
+                </a>
             </div>
         </div>
     </section>
 
-    <footer class="bg-white py-12 border-t border-slate-200">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <div class="text-xl font-bold tracking-tighter text-slate-900 mb-4 uppercase">
-                SBR<span class="text-amber-700">ASSOCIATES</span>
-            </div>
-            <p class="text-slate-500 text-xs">© 2026 SBR Associates. Specialists in Freehold Land and Plotted Colonies.</p>
-        </div>
+    <footer class="py-10 text-center text-slate-400 text-sm">
+        <p>&copy; 2026 SBR Associates | Real Estate Excellence</p>
+        <p class="mt-2">Tehsil - Indri, Sohna, Haryana</p>
     </footer>
-
-    <a href="https://wa.me/YOUR_NUMBER" class="fixed bottom-8 right-8 bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition z-50">
-        <i class="fab fa-whatsapp text-2xl"></i>
-    </a>
 
 </body>
 </html>
