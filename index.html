@@ -6,8 +6,9 @@
     <title>SBR Associates | 20 Years of Trusted Affordable Plots in NCR</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        body { font-family: 'Inter', sans-serif; }
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         h1, h2, h3 { font-family: 'Playfair Display', serif; }
         .bg-navy { background-color: #0F172A; }
         .text-gold { color: #C5A059; }
@@ -18,12 +19,14 @@
 </head>
 <body class="bg-white text-slate-900">
 
-    <nav class="flex justify-between items-center px-6 py-6 max-w-7xl mx-auto border-b border-slate-100">
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 flex justify-between items-center px-6 py-6 max-w-7xl mx-auto">
         <div class="text-2xl font-bold tracking-tighter text-navy uppercase">SBR <span class="text-gold">Associates</span></div>
         <div class="hidden md:flex space-x-10 text-xs font-bold uppercase tracking-widest text-slate-500">
             <a href="#about" class="hover-gold transition">Our Legacy</a>
             <a href="#projects" class="hover-gold transition">Sites</a>
             <a href="#process" class="hover-gold transition">Process</a>
+            <a href="#legal" class="hover-gold transition">Legal Verification</a>
+            <a href="#testimonials" class="hover-gold transition">Testimonials</a>
         </div>
         <a href="https://wa.me/919310633408" class="bg-navy text-white px-6 py-2 rounded-sm text-xs font-bold uppercase tracking-widest hover:bg-slate-800 transition">Get in Touch</a>
     </nav>
@@ -82,64 +85,48 @@
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
                 <h2 class="text-4xl text-navy italic mb-4">Active Plotting Sites</h2>
-                <p class="text-slate-500">Verified residential land with immediate registry and mutation support. Click a site to view details.</p>
+                <p class="text-slate-500">Click any card below to view specific site details, maps, and pricing.</p>
             </div>
             
             <div class="grid md:grid-cols-2 gap-12">
-                <a href="sohna.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-lg transition group">
+                <a href="sohna.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                     <div class="aspect-video bg-slate-200 mb-6 overflow-hidden relative">
                         <img src="sohna.jpeg" alt="Sohna Plot" class="plot-img group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-navy text-white px-3 py-1 text-[10px] uppercase font-bold">Best Seller</div>
                     </div>
                     <h3 class="text-2xl font-bold text-navy mb-1">Sohna</h3>
-                    <p class="text-slate-500 text-sm mb-4 italic">Starting with 50 Sq. Yard plots</p>
-                    <div class="flex items-baseline gap-2 mb-6">
-                        <span class="text-gold font-bold text-2xl">₹20,000</span>
-                        <span class="text-slate-400 text-sm italic">/ Per Sq. Yard</span>
-                    </div>
-                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site</span>
+                    <p class="text-slate-500 text-sm mb-4 italic">50 Sq. Yard onwards | ₹20,000/Gaj</p>
+                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site Details</span>
                 </a>
 
-                <a href="bhirawati.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-lg transition group">
+                <a href="bhirawati.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                     <div class="aspect-video bg-slate-200 mb-6 overflow-hidden relative">
                         <img src="bhirawati.jpeg" alt="Bhirawati Plot" class="plot-img group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-navy text-white px-3 py-1 text-[10px] uppercase font-bold">Premium Location</div>
                     </div>
                     <h3 class="text-2xl font-bold text-navy mb-1">Bhirawati</h3>
-                    <p class="text-slate-500 text-sm mb-4 italic">Starting with 60 Sq. Yard plots</p>
-                    <div class="flex items-baseline gap-2 mb-6">
-                        <span class="text-gold font-bold text-2xl">₹32,000</span>
-                        <span class="text-slate-400 text-sm italic">/ Per Sq. Yard</span>
-                    </div>
-                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site</span>
+                    <p class="text-slate-500 text-sm mb-4 italic">60 Sq. Yard onwards | ₹32,000/Gaj</p>
+                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site Details</span>
                 </a>
 
-                <a href="kanauli.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-lg transition group">
+                <a href="kanauli.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                     <div class="aspect-video bg-slate-200 mb-6 overflow-hidden relative">
                         <img src="kanauli.jpeg" alt="Kanauli Plot" class="plot-img group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-navy text-white px-3 py-1 text-[10px] uppercase font-bold">Best Investment</div>
                     </div>
                     <h3 class="text-2xl font-bold text-navy mb-1">Kanauli</h3>
-                    <p class="text-slate-500 text-sm mb-4 italic">Starting with 100 Sq. Yard plots</p>
-                    <div class="flex items-baseline gap-2 mb-6">
-                        <span class="text-gold font-bold text-2xl">₹18,000</span>
-                        <span class="text-slate-400 text-sm italic">/ Per Sq. Yard</span>
-                    </div>
-                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site</span>
+                    <p class="text-slate-500 text-sm mb-4 italic">100 Sq. Yard onwards | ₹18,000/Gaj</p>
+                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site Details</span>
                 </a>
 
-                <a href="hilalpur.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-lg transition group">
+                <a href="hilalpur.html" class="block bg-white p-6 shadow-sm border border-slate-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                     <div class="aspect-video bg-slate-200 mb-6 overflow-hidden relative">
                         <img src="hilalpur.jpeg" alt="Hilalpur Plot" class="plot-img group-hover:scale-105 transition duration-500">
                         <div class="absolute top-4 left-4 bg-navy text-white px-3 py-1 text-[10px] uppercase font-bold">Main Road Site</div>
                     </div>
                     <h3 class="text-2xl font-bold text-navy mb-1">Hilalpur</h3>
-                    <p class="text-slate-500 text-sm mb-4 italic">Starting with 100 Sq. Yard plots</p>
-                    <div class="flex items-baseline gap-2 mb-6">
-                        <span class="text-gold font-bold text-2xl">₹20,000</span>
-                        <span class="text-slate-400 text-sm italic">/ Per Sq. Yard</span>
-                    </div>
-                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site</span>
+                    <p class="text-slate-500 text-sm mb-4 italic">100 Sq. Yard onwards | ₹20,000/Gaj</p>
+                    <span class="inline-block bg-navy text-white px-8 py-3 text-[10px] font-bold uppercase tracking-widest group-hover:bg-gold transition">Explore Site Details</span>
                 </a>
             </div>
         </div>
@@ -147,44 +134,130 @@
 
     <section id="process" class="py-24 px-6 max-w-7xl mx-auto">
         <h2 class="text-4xl text-center mb-20 text-navy italic tracking-tighter">Your Path to Ownership</h2>
-        <div class="grid md:grid-cols-3 gap-12">
-            <div class="relative p-8 border border-slate-100 text-center hover:border-gold transition">
-                <span class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-navy text-gold flex items-center justify-center font-bold text-xl rounded-full border-4 border-white">1</span>
+        <div class="grid md:grid-cols-3 gap-12 text-center">
+            <div class="relative p-8 border border-slate-100 hover:border-gold transition">
+                <span class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-navy text-gold flex items-center justify-center font-bold text-xl rounded-full">1</span>
                 <h4 class="font-bold text-navy mt-4 mb-3 uppercase tracking-widest text-sm">Select Plot</h4>
                 <p class="text-slate-500 text-sm">Choose the location that fits your budget from our verified sites.</p>
             </div>
-            <div class="relative p-8 border border-slate-100 text-center hover:border-gold transition">
-                <span class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-navy text-gold flex items-center justify-center font-bold text-xl rounded-full border-4 border-white">2</span>
+            <div class="relative p-8 border border-slate-100 hover:border-gold transition">
+                <span class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-navy text-gold flex items-center justify-center font-bold text-xl rounded-full">2</span>
                 <h4 class="font-bold text-navy mt-4 mb-3 uppercase tracking-widest text-sm">Verify Docs</h4>
-                <p class="text-slate-500 text-sm">Review title deeds and legal approvals with our transparent support team.</p>
+                <p class="text-slate-500 text-sm">Review title deeds and legal approvals with our support team.</p>
             </div>
-            <div class="relative p-8 border border-slate-100 text-center hover:border-gold transition">
-                <span class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-navy text-gold flex items-center justify-center font-bold text-xl rounded-full border-4 border-white">3</span>
+            <div class="relative p-8 border border-slate-100 hover:border-gold transition">
+                <span class="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 bg-navy text-gold flex items-center justify-center font-bold text-xl rounded-full">3</span>
                 <h4 class="font-bold text-navy mt-4 mb-3 uppercase tracking-widest text-sm">Registry</h4>
                 <p class="text-slate-500 text-sm">Hassle-free legal transition with mutation and clear possession.</p>
             </div>
         </div>
     </section>
 
-    <section class="py-24 bg-slate-50 px-6">
-        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
-            <div class="w-64 h-64 bg-slate-300 rounded-sm overflow-hidden flex-shrink-0 border-b-8 border-gold">
-                <img src="satish-bhardwaj-office.jpg" alt="Ram Singh, MD" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500">
+    <section id="legal" class="py-24 bg-navy text-white px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="space-y-8">
+                    <span class="text-gold font-bold tracking-widest uppercase text-xs">Security First</span>
+                    <h2 class="text-4xl italic">How we vet Freehold properties.</h2>
+                    <div class="flex gap-6">
+                        <div class="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center shrink-0 border border-gold/50 text-gold font-bold">01</div>
+                        <div>
+                            <h4 class="font-bold text-xl mb-2">Title Deed Search</h4>
+                            <p class="text-slate-400">Detailed 30-year trace to ensure zero encumbrances or pending family disputes.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center shrink-0 border border-gold/50 text-gold font-bold">02</div>
+                        <div>
+                            <h4 class="font-bold text-xl mb-2">Tehsil Records</h4>
+                            <p class="text-slate-400">Direct verification of Jamabandi and Girdawari records at the local Tehsil office.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/5 p-10 border border-white/10 rounded-2xl">
+                    <h4 class="text-gold font-bold mb-4 uppercase text-xs tracking-widest">Document Checklist</h4>
+                    <ul class="space-y-4 text-sm text-slate-300">
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-green-500"></i> Original Registered Title Deed</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-green-500"></i> Mutation Record (Inteqal)</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-green-500"></i> Non-Encumbrance Certificate</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <span class="text-gold font-bold text-xs uppercase tracking-[0.3em] mb-2 block">Direct Leadership</span>
-                <h2 class="text-4xl text-navy mb-6 italic">"Building NCR for 20 years, one plot at a time."</h2>
-                <p class="text-slate-600 italic leading-relaxed mb-6">
-                    "When I started SBR Associates in 2006, my goal was simple: to ensure that a common man could buy a piece of land without the fear of legal disputes. Two decades later, we have helped over 500 families secure their future."
-                </p>
-                <p class="font-bold text-navy text-lg uppercase tracking-tighter">Ram Singh <span class="text-gold block font-normal text-sm lowercase italic tracking-normal">Managing Director, SBR Associates</span></p>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+        <div class="w-64 h-64 bg-slate-300 rounded-sm overflow-hidden flex-shrink-0 border-b-8 border-gold">
+            <img src="satish-bhardwaj-office.jpg" alt="Ram Singh, MD" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500">
+        </div>
+        <div>
+            <span class="text-gold font-bold text-xs uppercase tracking-[0.3em] mb-2 block">Direct Leadership</span>
+            <h2 class="text-4xl text-navy mb-6 italic">"Building NCR for 20 years, one plot at a time."</h2>
+            <p class="text-slate-600 italic leading-relaxed mb-6">
+                "When I started SBR Associates in 2006, my goal was simple: to ensure that a common man could buy land without fear. Over 500 families have secured their future with us."
+            </p>
+            <p class="font-bold text-navy text-lg uppercase tracking-tighter">Ram Singh <span class="text-gold block font-normal text-sm lowercase italic tracking-normal">Managing Director, SBR Associates</span></p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-24 bg-slate-50 px-6">
+        <div class="max-w-7xl mx-auto text-center mb-16">
+            <h2 class="text-4xl text-navy italic mb-4">What Our Investors Say</h2>
+            <p class="text-slate-500 uppercase text-xs font-bold tracking-widest">Verified site purchases</p>
+        </div>
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 border border-slate-100 shadow-sm rounded-xl">
+                <p class="text-slate-600 italic mb-6">"The mutation process was handled entirely by the team. Very professional experience."</p>
+                <p class="font-bold text-navy">Rajesh Sharma</p>
+                <p class="text-[10px] uppercase text-gold">Sohna Site Investor</p>
+            </div>
+            <div class="bg-white p-8 border border-slate-100 shadow-sm rounded-xl">
+                <p class="text-slate-600 italic mb-6">"Most transparent deal I've ever had. Bhirawati plot location is incredible."</p>
+                <p class="font-bold text-navy">Amit Prajapati</p>
+                <p class="text-[10px] uppercase text-gold">Bhirawati Site Investor</p>
+            </div>
+            <div class="bg-white p-8 border border-slate-100 shadow-sm rounded-xl">
+                <p class="text-slate-600 italic mb-6">"SBR made the registry process so simple. Highly recommend for middle-class buyers."</p>
+                <p class="font-bold text-navy">Sunita Devi</p>
+                <p class="text-[10px] uppercase text-gold">Kanauli Site Investor</p>
+            </div>
+            <div class="bg-white p-8 border border-slate-100 shadow-sm rounded-xl">
+                <p class="text-slate-600 italic mb-6">"Investment potential in Hilalpur is huge. The site is right on the main road."</p>
+                <p class="font-bold text-navy">Vikram Singh</p>
+                <p class="text-[10px] uppercase text-gold">Hilalpur Site Investor</p>
+            </div>
+            <div class="bg-white p-8 border border-slate-100 shadow-sm rounded-xl">
+                <p class="text-slate-600 italic mb-6">"Ram Singh is a man of his word. Honest deal and immediate possession."</p>
+                <p class="font-bold text-navy">Pankaj Yadav</p>
+                <p class="text-[10px] uppercase text-gold">Sohna Site Investor</p>
             </div>
         </div>
     </section>
 
     <footer class="bg-navy text-white pt-24 pb-12 px-6">
-        <div class="max-w-7xl mx-auto text-center border-t border-slate-800 pt-12">
-            <p class="text-[10px] text-slate-600 uppercase tracking-[0.4em]">&copy; 2026 SBR Associates | Reliable Real Estate | Call/WhatsApp: +91 9310633408</p>
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-16 border-b border-slate-800 pb-12">
+            <div class="col-span-1 md:col-span-2">
+                <div class="text-2xl font-bold tracking-tighter text-white uppercase mb-6">SBR <span class="text-gold">Associates</span></div>
+                <p class="text-slate-400 text-sm max-w-sm leading-relaxed">
+                    20 years of real estate excellence. Helping families build wealth through secure, verified land ownership in Sohna and NCR.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-gold font-bold text-xs uppercase tracking-[0.3em] mb-6">Contact</h4>
+                <p class="text-slate-300 text-sm mb-2"><i class="fas fa-phone mr-2 text-gold"></i> +91 9310633408</p>
+                <p class="text-slate-300 text-sm mb-2 leading-relaxed"><i class="fas fa-map-marker-alt mr-2 text-gold"></i> Sohna Road, near GD Goenka University, Sohna, HR</p>
+            </div>
+            <div>
+                <h4 class="text-gold font-bold text-xs uppercase tracking-[0.3em] mb-6">Quick Links</h4>
+                <div class="flex flex-col gap-3 text-sm text-slate-400">
+                    <a href="#about" class="hover:text-white">Our Legacy</a>
+                    <a href="#projects" class="hover:text-white">Active Sites</a>
+                    <a href="https://wa.me/919310633408" class="hover:text-white">WhatsApp Inquiry</a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-[10px] text-slate-600 uppercase tracking-[0.4em]">&copy; 2026 SBR Associates | Reliable Real Estate | Managed by Ram Singh</p>
         </div>
     </footer>
 
